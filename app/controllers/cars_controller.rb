@@ -1,8 +1,8 @@
 class CarsController < ApplicationController
 
   def index
-    cars = Car.all
-    render json: cars.as_json
+    @cars = Car.all
+    # render jsoxn: cars.as_json
   end
 
   def create
