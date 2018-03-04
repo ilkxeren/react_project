@@ -14,6 +14,7 @@ ActiveRecord::Schema.define(version: 20180226000122) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+ActiveRecord::Schema.define(version: 20180226013731) do
 
   create_table "cars", force: :cascade do |t|
     t.integer "year"
